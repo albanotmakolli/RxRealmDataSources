@@ -1,0 +1,53 @@
+PODS:
+  - Realm (3.21.0):
+    - Realm/Headers (= 3.21.0)
+  - Realm/Headers (3.21.0)
+  - RealmSwift (3.21.0):
+    - Realm (= 3.21.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRealm (1.0.0):
+    - RealmSwift (~> 3.14)
+    - RxSwift (~> 5.0)
+  - RxRealmDataSources (0.2.10):
+    - RealmSwift (~> 3.10)
+    - RxCocoa (~> 5)
+    - RxRealm (~> 1)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+
+DEPENDENCIES:
+  - RealmSwift (~> 3.11)
+  - RxCocoa (~> 5)
+  - RxRealm (~> 1)
+  - RxRealmDataSources (from `../`)
+  - RxSwift (~> 5)
+
+SPEC REPOS:
+  trunk:
+    - Realm
+    - RealmSwift
+    - RxCocoa
+    - RxRealm
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  RxRealmDataSources:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Realm: 38e9dcb19104b58407167d99f70d4995f7c16023
+  RealmSwift: 3183cc1ad48378fbcd634311b22c0e6c44021152
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRealm: 1e81dcfca1fb50c3e9b3e1f8102bc875c5156a2e
+  RxRealmDataSources: afee16b07952b9b50fc510e9bfd5576c12b40b7f
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+
+PODFILE CHECKSUM: 0c11d5469c5d585a14a3254104f99e7e89c027dd
+
+COCOAPODS: 1.9.1
